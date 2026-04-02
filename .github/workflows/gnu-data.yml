@@ -34,26 +34,26 @@ jobs:
       uses: dawidd6/action-download-artifact@v11
       with:
         workflow: GnuTests.yml
-        name: aggregated-result
+        name: sed-gnu-full-result
         repo: uutils/sed
         path: dl
 
     - name: Merge the json files
       shell: bash
       run: |
-       echo "== dl/gnu-result.json =="
-       cat dl/gnu-result.json
+       echo "== dl/sed-gnu-result.json =="
+       cat dl/sed-gnu-result.json
        echo "== gnu-result.json =="
        cat gnu-result.json|tail -100
-       jq -s '.[0] * .[1]' gnu-result.json dl/gnu-result.json > merged.json
+       jq -s '.[0] * .[1]' gnu-result.json dl/sed-gnu-result.json > merged.json
        echo "== merged.json ="
        cat merged.json|tail -100
        mv merged.json gnu-result.json
 
 
-       echo "== dl/aggregated-result.json =="
-       cat dl/aggregated-result.json|tail -100
-       mv dl/aggregated-result.json aggregated-result.json
+       echo "== dl/sed-gnu-full-result.json =="
+       cat dl/sed-gnu-full-result.json|tail -100
+       mv dl/sed-gnu-full-result.json aggregated-result.json
 
        rm -rf dl
 
