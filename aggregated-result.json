@@ -1,0 +1,341 @@
+{
+  "timestamp": "2026-04-02T05:07:27Z",
+  "summary": {
+    "total": 65,
+    "passed": 7,
+    "failed": 48,
+    "skipped": 10,
+    "duration_seconds": 24
+  },
+  "environment": {
+    "rust_sed_version": "0.1.1",
+    "gnu_testsuite_dir": "/home/runner/work/sed/sed/gnu.sed/testsuite"
+  },
+  "tests": [
+    {
+      "name": "8bit",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "8to7",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "badenc",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "binary",
+      "status": "FAIL",
+      "error": "Test timed out after 10s"
+    },
+    {
+      "name": "bsd-wrapper",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "bsd",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "bug32082",
+      "status": "SKIP",
+      "error": "SKIP: valgrind not available in this test harness"
+    },
+    {
+      "name": "bug32271-1",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "bug32271-2",
+      "status": "SKIP",
+      "error": "SKIP: valgrind not available in this test harness"
+    },
+    {
+      "name": "cmd-0r",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "cmd-R",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "cmd-l",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "colon-with-no-label",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "command-endings",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "comment-n",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "compile-errors",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "compile-tests",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "convert-number",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "dc",
+      "status": "FAIL",
+      "error": "Test timed out after 10s"
+    },
+    {
+      "name": "distrib",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "eval",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "execute-tests",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "follow-symlinks-stdin",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "follow-symlinks",
+      "status": "FAIL",
+      "error": "Framework failure: sed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `e'\nFRAMEWORK FAILURE: "
+    },
+    {
+      "name": "help",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "in-place-hyphen",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "in-place-suffix-backup",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "inplace-hold",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "inplace-selinux",
+      "status": "SKIP",
+      "error": "SKIP: SELinux not available in this test harness"
+    },
+    {
+      "name": "invalid-mb-seq-UMR",
+      "status": "SKIP",
+      "error": "SKIP: valgrind not available in this test harness"
+    },
+    {
+      "name": "mac-mf",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "madding",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "mb-bad-delim",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "mb-charclass-non-utf8",
+      "status": "SKIP",
+      "error": "SKIP: ja_JP shift-jis locale not available"
+    },
+    {
+      "name": "mb-match-slash",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "mb-y-translate",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "missing-filename",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "newjis",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "newline-dfa-bug",
+      "status": "SKIP",
+      "error": "SKIP: valgrind not available in this test harness"
+    },
+    {
+      "name": "normalize-text",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "nulldata",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "obinary",
+      "status": "SKIP",
+      "error": "SKIP: platform does not enable O_TEXT by default"
+    },
+    {
+      "name": "posix-char-class",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "posix-mode-ERE",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "posix-mode-N",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "posix-mode-addr",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "posix-mode-bad-ref",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "posix-mode-s",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "range-overlap",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "recursive-escape-c",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "regex-errors",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "regex-max-int",
+      "status": "SKIP",
+      "error": "SKIP: very expensive tests disabled"
+    },
+    {
+      "name": "sandbox",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "stdin-prog",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "stdin",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "subst-mb-incomplete",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "subst-options",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "subst-replacement",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "temp-file-cleanup",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "title-case",
+      "status": "SKIP",
+      "error": "SKIP: el_GR.iso88597 locale not available"
+    },
+    {
+      "name": "unbuffered",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "uniq",
+      "status": "PASS",
+      "error": ""
+    },
+    {
+      "name": "utf8-ru",
+      "status": "SKIP",
+      "error": "SKIP: ru_RU.UTF-8 locale not available"
+    },
+    {
+      "name": "word-delim",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    },
+    {
+      "name": "xemacs",
+      "status": "FAIL",
+      "error": "Exit code: 1"
+    }
+  ]
+}
