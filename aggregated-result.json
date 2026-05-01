@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-04-29T05:33:56Z",
+  "timestamp": "2026-04-30T21:04:48Z",
   "summary": {
     "total": 65,
-    "passed": 7,
-    "failed": 48,
+    "passed": 8,
+    "failed": 47,
     "skipped": 10,
-    "duration_seconds": 23
+    "duration_seconds": 22
   },
   "environment": {
     "rust_sed_version": "0.1.1",
@@ -229,8 +229,8 @@
     },
     {
       "name": "posix-mode-ERE",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "posix-mode-N",
