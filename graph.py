@@ -67,9 +67,13 @@ palette = {
 }
 
 # Add gradient-like area fills first (behind lines)
+# Use the smoothed values so the fill follows below the plotted line
+smooth_by_metric = df_plot_long.pivot_table(
+    index='date', columns='metric', values='count_smooth'
+)
 for metric in ['total', 'pass', 'fail']:
-    if metric in df_plot.columns:
-        ax.fill_between(df_plot['date'], 0, df_plot[metric],
+    if metric in smooth_by_metric.columns:
+        ax.fill_between(smooth_by_metric.index, 0, smooth_by_metric[metric],
                        alpha=0.18, color=palette[metric], zorder=1, linewidth=0)
 
 # Use Seaborn's lineplot with enhanced styling and smoothed data
