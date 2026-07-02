@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-01T09:53:17Z",
+  "timestamp": "2026-07-01T19:05:29Z",
   "summary": {
     "total": 65,
     "passed": 8,
     "failed": 47,
     "skipped": 10,
-    "duration_seconds": 23
+    "duration_seconds": 43
   },
   "environment": {
     "rust_sed_version": "0.1.1",
@@ -250,7 +250,7 @@
     {
       "name": "posix-mode-s",
       "status": "FAIL",
-      "error": "Exit code: 1"
+      "error": "Test timed out after 10s"
     },
     {
       "name": "range-overlap",
@@ -295,7 +295,7 @@
     {
       "name": "subst-options",
       "status": "FAIL",
-      "error": "Exit code: 1"
+      "error": "Test timed out after 10s"
     },
     {
       "name": "subst-replacement",
