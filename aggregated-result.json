@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-03T14:57:39Z",
+  "timestamp": "2026-07-05T13:15:00Z",
   "summary": {
     "total": 65,
-    "passed": 8,
-    "failed": 47,
+    "passed": 10,
+    "failed": 45,
     "skipped": 10,
-    "duration_seconds": 42
+    "duration_seconds": 4
   },
   "environment": {
     "rust_sed_version": "0.1.1",
@@ -29,8 +29,8 @@
     },
     {
       "name": "binary",
-      "status": "FAIL",
-      "error": "Test timed out after 10s"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "bsd-wrapper",
@@ -104,8 +104,8 @@
     },
     {
       "name": "dc",
-      "status": "FAIL",
-      "error": "Test timed out after 10s"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "distrib",
@@ -250,7 +250,7 @@
     {
       "name": "posix-mode-s",
       "status": "FAIL",
-      "error": "Test timed out after 10s"
+      "error": "Exit code: 1"
     },
     {
       "name": "range-overlap",
@@ -295,7 +295,7 @@
     {
       "name": "subst-options",
       "status": "FAIL",
-      "error": "Test timed out after 10s"
+      "error": "Exit code: 1"
     },
     {
       "name": "subst-replacement",
