@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-22T06:24:25Z",
+  "timestamp": "2026-07-26T17:46:48Z",
   "summary": {
     "total": 65,
-    "passed": 10,
-    "failed": 45,
+    "passed": 12,
+    "failed": 43,
     "skipped": 10,
     "duration_seconds": 4
   },
@@ -14,8 +14,8 @@
   "tests": [
     {
       "name": "8bit",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "8to7",
@@ -164,8 +164,8 @@
     },
     {
       "name": "mac-mf",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "madding",
