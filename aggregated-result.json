@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-01T05:17:37Z",
+  "timestamp": "2026-08-01T11:05:06Z",
   "summary": {
     "total": 65,
-    "passed": 12,
-    "failed": 43,
+    "passed": 14,
+    "failed": 41,
     "skipped": 10,
-    "duration_seconds": 3
+    "duration_seconds": 4
   },
   "environment": {
     "rust_sed_version": "0.1.1",
@@ -24,8 +24,8 @@
     },
     {
       "name": "badenc",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "binary",
@@ -114,8 +114,8 @@
     },
     {
       "name": "eval",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "execute-tests",
@@ -130,7 +130,7 @@
     {
       "name": "follow-symlinks",
       "status": "FAIL",
-      "error": "Framework failure: sed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `e'\nFRAMEWORK FAILURE: "
+      "error": "Framework failure: sed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: error Reading metadata of '-' for in-place edit: No such file or directory\nFRAMEWORK FAILURE: "
     },
     {
       "name": "help",
