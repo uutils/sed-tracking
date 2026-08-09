@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T06:17:45Z",
+  "timestamp": "2026-08-08T23:59:38Z",
   "summary": {
     "total": 65,
     "passed": 14,
@@ -8,7 +8,7 @@
     "duration_seconds": 3
   },
   "environment": {
-    "rust_sed_version": "0.1.1",
+    "rust_sed_version": "0.2.0",
     "gnu_testsuite_dir": "/home/runner/work/sed/sed/gnu.sed/testsuite"
   },
   "tests": [
