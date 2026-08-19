@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T11:55:03Z",
+  "timestamp": "2026-08-19T13:22:29Z",
   "summary": {
     "total": 65,
     "passed": 14,
@@ -130,7 +130,7 @@
     {
       "name": "follow-symlinks",
       "status": "FAIL",
-      "error": "Framework failure: sed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: <script argument 1>:1:1: error: invalid command code `F'\nsed: error Reading metadata of '-' for in-place edit: No such file or directory\nFRAMEWORK FAILURE: "
+      "error": "Framework failure: sed: error Reading metadata of '-' for in-place edit: No such file or directory\nFRAMEWORK FAILURE: "
     },
     {
       "name": "help",
