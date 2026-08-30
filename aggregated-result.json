@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-26T14:31:27Z",
+  "timestamp": "2026-08-29T21:25:15Z",
   "summary": {
     "total": 65,
     "passed": 14,
-    "failed": 41,
-    "skipped": 10,
-    "duration_seconds": 4
+    "failed": 43,
+    "skipped": 8,
+    "duration_seconds": 3
   },
   "environment": {
     "rust_sed_version": "0.2.0",
@@ -309,8 +309,8 @@
     },
     {
       "name": "title-case",
-      "status": "SKIP",
-      "error": "SKIP: el_GR.iso88597 locale not available"
+      "status": "FAIL",
+      "error": "Exit code: 1"
     },
     {
       "name": "unbuffered",
@@ -324,8 +324,8 @@
     },
     {
       "name": "utf8-ru",
-      "status": "SKIP",
-      "error": "SKIP: ru_RU.UTF-8 locale not available"
+      "status": "FAIL",
+      "error": "Exit code: 1"
     },
     {
       "name": "word-delim",
