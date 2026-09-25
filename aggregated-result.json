@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-25T05:16:31Z",
+  "timestamp": "2026-09-25T13:19:28Z",
   "summary": {
     "total": 65,
-    "passed": 14,
-    "failed": 43,
+    "passed": 15,
+    "failed": 42,
     "skipped": 8,
     "duration_seconds": 3
   },
@@ -64,8 +64,8 @@
     },
     {
       "name": "cmd-R",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "cmd-l",
