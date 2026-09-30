@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-29T15:53:55Z",
+  "timestamp": "2026-09-29T20:47:29Z",
   "summary": {
     "total": 65,
-    "passed": 15,
-    "failed": 42,
+    "passed": 17,
+    "failed": 40,
     "skipped": 8,
     "duration_seconds": 3
   },
@@ -130,7 +130,7 @@
     {
       "name": "follow-symlinks",
       "status": "FAIL",
-      "error": "Framework failure: sed: error Reading metadata of '-' for in-place edit: No such file or directory\nFRAMEWORK FAILURE: "
+      "error": "Exit code: 1"
     },
     {
       "name": "help",
@@ -149,8 +149,8 @@
     },
     {
       "name": "inplace-hold",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "inplace-selinux",
@@ -279,8 +279,8 @@
     },
     {
       "name": "stdin-prog",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "stdin",
