@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-03T05:06:39Z",
+  "timestamp": "2026-10-03T17:12:25Z",
   "summary": {
     "total": 65,
-    "passed": 17,
-    "failed": 40,
+    "passed": 18,
+    "failed": 39,
     "skipped": 8,
-    "duration_seconds": 4
+    "duration_seconds": 3
   },
   "environment": {
     "rust_sed_version": "0.3.0",
@@ -109,8 +109,8 @@
     },
     {
       "name": "distrib",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "eval",
