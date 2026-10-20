@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-19T19:27:08Z",
+  "timestamp": "2026-10-19T20:04:02Z",
   "summary": {
     "total": 65,
-    "passed": 18,
-    "failed": 39,
+    "passed": 21,
+    "failed": 36,
     "skipped": 8,
     "duration_seconds": 4
   },
@@ -224,8 +224,8 @@
     },
     {
       "name": "posix-char-class",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "posix-mode-ERE",
@@ -329,13 +329,13 @@
     },
     {
       "name": "word-delim",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "xemacs",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     }
   ]
 }
