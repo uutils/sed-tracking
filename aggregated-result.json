@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-11T09:00:28Z",
+  "timestamp": "2026-11-11T15:36:38Z",
   "summary": {
     "total": 65,
-    "passed": 21,
-    "failed": 36,
+    "passed": 22,
+    "failed": 35,
     "skipped": 8,
-    "duration_seconds": 5
+    "duration_seconds": 3
   },
   "environment": {
     "rust_sed_version": "0.3.0",
@@ -294,8 +294,8 @@
     },
     {
       "name": "subst-options",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "subst-replacement",
