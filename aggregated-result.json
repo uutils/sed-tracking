@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-11-14T06:15:08Z",
+  "timestamp": "2026-11-14T17:31:25Z",
   "summary": {
     "total": 65,
-    "passed": 22,
-    "failed": 35,
+    "passed": 23,
+    "failed": 34,
     "skipped": 8,
     "duration_seconds": 4
   },
@@ -79,8 +79,8 @@
     },
     {
       "name": "command-endings",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "comment-n",
