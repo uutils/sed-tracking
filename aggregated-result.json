@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-21T23:32:08Z",
+  "timestamp": "2026-11-22T14:51:07Z",
   "summary": {
     "total": 65,
-    "passed": 23,
-    "failed": 34,
+    "passed": 24,
+    "failed": 33,
     "skipped": 8,
-    "duration_seconds": 3
+    "duration_seconds": 5
   },
   "environment": {
     "rust_sed_version": "0.3.0",
@@ -119,8 +119,8 @@
     },
     {
       "name": "execute-tests",
-      "status": "FAIL",
-      "error": "Exit code: 1"
+      "status": "PASS",
+      "error": ""
     },
     {
       "name": "follow-symlinks-stdin",
